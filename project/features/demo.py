@@ -1,3 +1,5 @@
+import pandas as pd
+
 def create_demographic_features(final_cohort_with_targets):
     """
     Create demographic features from cohort data

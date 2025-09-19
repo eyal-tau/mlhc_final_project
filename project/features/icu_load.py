@@ -1,3 +1,5 @@
+import pandas as pd
+
 def score_value(x, mapping):
     for ub, sc in mapping:
         if x <= ub:

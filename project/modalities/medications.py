@@ -1,3 +1,5 @@
+import pandas as pd
+
 def extract_medications_data(final_cohort, con):
     """
     Extract medications data for the unified cohort

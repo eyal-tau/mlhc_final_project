@@ -1,3 +1,5 @@
+import pandas as pd
+
 def extract_notes_data(final_cohort, con, hours=48, categories=None):
     """
     Extract notes data for the unified cohort

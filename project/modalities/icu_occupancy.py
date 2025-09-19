@@ -1,3 +1,5 @@
+import pandas as pd
+
 def extract_icu_occupancy_data(final_cohort, con, clause="load_window", window_hours=12, same_unit=False):
     """
     Extract ICU occupancy data

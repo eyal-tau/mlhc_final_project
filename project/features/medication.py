@@ -1,3 +1,5 @@
+import pandas as pd
+
 def create_medication_features(final_cohort_with_targets, medications_data):
     """
     Create medication features from medications data using vectorized pandas operations

@@ -22,7 +22,7 @@ def combine_all_features(final_cohort_with_targets, target: str, lab_features, v
     print("="*50)
 
     # Start with targets
-    feature_matrix = final_cohort_with_targets[['subject_id', 'hadm_id', target]].copy()
+    feature_matrix = final_cohort_with_targets[['subject_id', 'hadm_id']].copy()
 
     print(f"Starting with {len(feature_matrix)} patients")
 
